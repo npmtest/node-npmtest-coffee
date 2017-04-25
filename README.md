@@ -1,6 +1,6 @@
 # npmtest-coffee
 
-#### test coverage for  [coffee (v3.3.0)](https://github.com/popomore/coffee)  [![npm package](https://img.shields.io/npm/v/npmtest-coffee.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-coffee) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-coffee.svg)](https://travis-ci.org/npmtest/node-npmtest-coffee)
+#### basic test coverage for  [coffee (v3.3.0)](https://github.com/popomore/coffee)  [![npm package](https://img.shields.io/npm/v/npmtest-coffee.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-coffee) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-coffee.svg)](https://travis-ci.org/npmtest/node-npmtest-coffee)
 
 #### Test command line on nodejs
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-coffee/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-coffee/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-coffee/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-coffee/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-coffee/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-coffee/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-coffee/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-coffee/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-coffee/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-coffee/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-coffee/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-coffee/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "lint": "eslint index.js lib test",
         "test": "mocha -R spec -t 80000"
     },
-    "version": "3.3.0"
+    "version": "3.3.0",
+    "bin": {}
 }
 ```
 
